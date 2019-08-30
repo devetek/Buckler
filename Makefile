@@ -6,4 +6,4 @@ run-dev: .validate
 .validate:
 	$(eval DCOMPEXIST := $(shell which docker-compose))
 	
-	@ test -n "$(DCOMPEXIST)" || sh -c 'echo "No docker-compose binary installed, How to install https://docs.docker.com/compose/install/" && exit 1'
+	@ test -n "$(DCOMPEXIST)" || sh -c 'echo "No docker-compose binary installed, how to install https://docs.docker.com/compose/install/" && exit 1'
