@@ -28,8 +28,8 @@ services:
       - tkpwp_mysql
     restart: always
     volumes:
-      - ./plugins:/var/www/html/wp-content/plugins
-      - ./templates:/var/www/html/wp-content/themes
+      - tkpwp_app_plugins:/var/www/html/wp-content/plugins
+      - tkpwp_app_themes:/var/www/html/wp-content/themes
     ports:
       - 8080:80
     environment:
@@ -67,15 +67,15 @@ volumes:
       type: none
       device: $PWD/backup/mysql/volume
       o: bind
-  # tkpwp_app_plugins:
-  #   driver: local
-  #   driver_opts:
-  #     type: none
-  #     device: $PWD/plugins
-  #     o: bind
-  # tkpwp_app_themes:
-  #   driver: local
-  #   driver_opts:
-  #     type: none
-  #     device: $PWD/templates
-  #     o: bind
+  tkpwp_app_plugins:
+    driver: local
+    driver_opts:
+      type: none
+      device: $PWD/plugins
+      o: bind
+  tkpwp_app_themes:
+    driver: local
+    driver_opts:
+      type: none
+      device: $PWD/templates
+      o: bind
