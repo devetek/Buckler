@@ -1,6 +1,6 @@
 run-dev: .validate
-	@ test -f docker/mysql/volume || mkdir -p docker/mysql/volume
-	@ test -f docker/mysql/restore || mkdir -p docker/mysql/restore
+	@ test -f backup/mysql/volume || mkdir -p backup/mysql/volume
+	@ test -f backup/mysql/restore || mkdir -p backup/mysql/restore
 	@ docker-compose down && docker-compose up
 
 .validate:
