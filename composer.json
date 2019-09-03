@@ -1,0 +1,14 @@
+{
+  "name": "tokopedia/tkpwp",
+  "require": {
+    "vlucas/phpdotenv": "^2.2"
+  },
+  "license": "MIT",
+  "description": "Tokopedia Wordpress Blog",
+  "authors": [
+    {
+      "name": "Prakasa",
+      "email": "nedya.prakasa@tokopedia.com"
+    }
+  ]
+}

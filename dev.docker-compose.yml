@@ -22,19 +22,18 @@ services:
       - ADMINER_DEFAULT_SERVER=tkpwp_mysql
 
   tkpwp_app:
-    image: wordpress:5.2.2
+    image: wp-blog_tkpwp_app:latest
     container_name: tkpwp_app
     depends_on:
       - tkpwp_mysql
     restart: always
     volumes:
+      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
+      - ./.env:/var/www/html/.env
+      - ./wp-config.php:/var/www/html/wp-config.php
       - ./wp-content:/var/www/html/wp-content
     ports:
       - 8080:80
-    environment:
-      WORDPRESS_DB_HOST: tkpwp_mysql
-      WORDPRESS_DB_NAME: tkpwpdb
-      WORDPRESS_DB_PASSWORD: passworddbdevelopment
   
   tkpwp_nginx:
     image: nginx

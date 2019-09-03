@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  tkpwp_app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile/Production.Dockerfile
+    image: prakasa1904/wp-environment:latest
+    container_name: tkpwp_app
+    depends_on:
+      - tkpwp_mysql
+    restart: always
+    volumes:
+      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
+      - ./.env:/var/www/html/.env
+      - ./wp-config.php:/var/www/html/wp-config.php
+      - ./wp-content:/var/www/html/wp-content
+    ports:
+      - 8080:80

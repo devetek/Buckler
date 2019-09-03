@@ -1,2 +1,6 @@
 # local volume for DB, some stuff no need to pushed
 backup
+vendor
+
+# local env
+.env
