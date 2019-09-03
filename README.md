@@ -1,3 +1,8 @@
+## Setup Environment
+
+1. Create `.env` in the root directory
+2. Follow `.env.example` for `.env` value
+
 ## Run Development
 
 1. GNU make must be installed
