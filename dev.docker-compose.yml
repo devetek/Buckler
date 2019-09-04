@@ -22,7 +22,7 @@ services:
       - ADMINER_DEFAULT_SERVER=tkpwp_mysql
 
   tkpwp_app:
-    image: wp-blog_tkpwp_app:latest
+    image: prakasa1904/wp-environment:latest
     container_name: tkpwp_app
     depends_on:
       - tkpwp_mysql
