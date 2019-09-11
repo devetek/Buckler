@@ -11,8 +11,6 @@ FROM wordpress:5.2.2
 
 WORKDIR /var/www/html
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 # prepare file and folder after build, prepare for running environment
 COPY ./config/php.conf.ini /usr/local/etc/php/conf.d/conf.ini
 COPY .env.example .
