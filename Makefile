@@ -1,6 +1,5 @@
 # build for development, for build machine please confirm to devOps need install composer to support install dependencies
 build: .validate
-	@ composer install
 	@ docker build -f Dockerfile/Production.Dockerfile --tag=prakasa1904/wp-environment .
 	@ docker push prakasa1904/wp-environment
 
