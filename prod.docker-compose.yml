@@ -4,8 +4,6 @@ services:
   tkpwp_app:
     image: prakasa1904/wp-environment:latest
     container_name: tkpwp_app
-    depends_on:
-      - tkpwp_mysql
     restart: always
     volumes:
       - ./.env:/var/www/html/.env
