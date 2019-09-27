@@ -4,3 +4,6 @@ vendor
 
 # local env
 .env
+
+# db store
+.DS_Store
