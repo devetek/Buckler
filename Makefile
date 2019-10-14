@@ -3,13 +3,18 @@ build: .validate
 	@ docker build -f Dockerfile/Production.Dockerfile --tag=prakasa1904/wp-environment .
 	@ docker push prakasa1904/wp-environment
 
-run-dev: .validate
+run-dev: .destroy-dev
 	@ test -f backup/mysql/volume || mkdir -p backup/mysql/volume
 	@ test -f backup/mysql/restore || mkdir -p backup/mysql/restore
-	@ docker-compose -f dev.docker-compose.yml down && docker-compose -f dev.docker-compose.yml up
+	@ docker-compose -f dev.docker-compose.yml up
 
-run-prod: .validate
-	@ docker-compose -f prod.docker-compose.yml down && docker-compose -f prod.docker-compose.yml up
+run-prod:
+	@ docker-compose -f prod.docker-compose.yml down
+	@ docker-compose -f prod.docker-compose.yml up
+
+.destroy-dev: .validate
+	@ docker system prune
+	@ docker-compose -f dev.docker-compose.yml down
 
 .validate:
 	$(eval DCOMPEXIST := $(shell which docker-compose))
