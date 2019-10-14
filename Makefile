@@ -19,8 +19,6 @@ run-prod:
 
 .validate:
 	$(eval DCOMPEXIST := $(shell which docker-compose))
-	$(eval COMPEXIST := $(shell which composer))
 
 	@ test -f .env || sh -c 'echo "No .env file in this directory, follow environment value from .env.example" && exit 1'
 	@ test -n "$(DCOMPEXIST)" || sh -c 'echo "No docker-compose binary installed, how to install https://docs.docker.com/compose/install/" && exit 1'
-	@ test -n "$(COMPEXIST)" || sh -c 'echo "No composer binary installed, how to install https://getcomposer.org/download/" && exit 1'
