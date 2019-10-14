@@ -13,6 +13,7 @@ run-prod:
 	@ docker-compose -f prod.docker-compose.yml up
 
 .destroy-dev: .validate
+	@ cp .env.example .env
 	@ docker system prune
 	@ docker-compose -f dev.docker-compose.yml down
 
