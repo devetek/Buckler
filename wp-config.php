@@ -1,4 +1,21 @@
 <?php 
+//Begin Really Simple SSL Server variable fix
+$_SERVER["HTTPS"] = "on";
+//END Really Simple SSL
+
+//Begin Really Simple SSL Load balancing fix
+if ((isset($_ENV["HTTPS"]) && ("on" == $_ENV["HTTPS"]))
+|| (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "1") !== false))
+|| (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "on") !== false))
+|| (isset($_SERVER["HTTP_CF_VISITOR"]) && (strpos($_SERVER["HTTP_CF_VISITOR"], "https") !== false))
+|| (isset($_SERVER["HTTP_CLOUDFRONT_FORWARDED_PROTO"]) && (strpos($_SERVER["HTTP_CLOUDFRONT_FORWARDED_PROTO"], "https") !== false))
+|| (isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && (strpos($_SERVER["HTTP_X_FORWARDED_PROTO"], "https") !== false))
+|| (isset($_SERVER["HTTP_X_PROTO"]) && (strpos($_SERVER["HTTP_X_PROTO"], "SSL") !== false))
+) {
+$_SERVER["HTTPS"] = "on";
+}
+//END Really Simple SSL
+
 
 require_once(__DIR__ . '/vendor/autoload.php');
 
@@ -41,6 +58,9 @@ define( 'DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '');
+
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
 
 /**#@+
  * Authentication Unique Keys and Salts.

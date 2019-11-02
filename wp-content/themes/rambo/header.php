@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head> 
 	<meta http-equiv="X-UA-Compatible" content="IE=9">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>" charset="<?php bloginfo('charset'); ?>" />
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>"/>
+	<meta name="google-site-verification" content="CEH3XvvbQeESzhP4pwuvM74vE2Cp5qgHRpmHNnzhD2s" />
 	<?php 
 	$rambo_pro_theme_options = theme_data_setup();
 	$rambopro_current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array() ), $rambo_pro_theme_options );
@@ -18,6 +19,15 @@
 			<link   rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/images/fevicon.icon">
 		<?php } 
 		wp_head(); ?>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93536438-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+
+  			gtag('config', 'UA-93536438-1');
+		</script>
 </head>
 <body <?php body_class(); ?> >
 <div class="container">		

@@ -1,0 +1,289 @@
+0000.000 (0) Opened log file at time: Wed, 30 Oct 2019 15:38:05 +0000 on http://www.okcarlomboktransport.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.2 PHP: 7.3.8 (apache2handler, Linux cd093d75f37f 4.15.0 #1 SMP Thu Jun 27 15:10:55 MSK 2019 x86_64) MySQL: 5.7.28 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.6M | 2M) multisite: N openssl: OpenSSL 1.1.1c  28 May 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 15989.9 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.013 (0) Semaphore (fd, wp_options) being initialised
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2019-10-30 15:38:05
+0000.025 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=97456dc5a630, file_nonce=97456dc5a630 begun at=1572449885 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1572450185) in case this run gets aborted
+0000.096 (0) OpenVZ; reported memory: 1024 MB
+0000.099 (0) Checking if we have a zip executable available
+0000.107 (0) Creation of backups of directories: beginning
+0000.112 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.367 (0) Total entities for the zip file: 664 directories, 4589 files (0 skipped as non-modified), 70.8 MB
+0000.385 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.399 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.410 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.420 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.433 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.439 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 4589 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.177 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 600 files added (on-disk size: 4616 KB)
+0002.192 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 700 files added (on-disk size: 4616 KB)
+0002.205 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 800 files added (on-disk size: 4616 KB)
+0002.219 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 900 files added (on-disk size: 4616 KB)
+0002.228 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1000 files added (on-disk size: 4616 KB)
+0002.230 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 4589 files batched, 501 (1002) added so far); re-opening (prior size: 4616 KB)
+0003.432 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1100 files added (on-disk size: 5445.8 KB)
+0003.448 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1200 files added (on-disk size: 5445.8 KB)
+0003.463 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1300 files added (on-disk size: 5445.8 KB)
+0003.477 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1400 files added (on-disk size: 5445.8 KB)
+0003.485 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1500 files added (on-disk size: 5445.8 KB)
+0003.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.5 MB, 4589 files batched, 501 (1503) added so far); re-opening (prior size: 5445.8 KB)
+0004.900 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1600 files added (on-disk size: 6594.6 KB)
+0004.908 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1700 files added (on-disk size: 6594.6 KB)
+0004.921 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1800 files added (on-disk size: 6594.6 KB)
+0004.930 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 1900 files added (on-disk size: 6594.6 KB)
+0004.941 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2000 files added (on-disk size: 6594.6 KB)
+0004.943 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 4589 files batched, 501 (2004) added so far); re-opening (prior size: 6594.6 KB)
+0006.339 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2100 files added (on-disk size: 7629.7 KB)
+0006.350 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2200 files added (on-disk size: 7629.7 KB)
+0006.358 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2300 files added (on-disk size: 7629.7 KB)
+0006.366 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2400 files added (on-disk size: 7629.7 KB)
+0006.374 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2500 files added (on-disk size: 7629.7 KB)
+0006.377 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.4 MB, 4589 files batched, 501 (2505) added so far); re-opening (prior size: 7629.7 KB)
+0008.601 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2600 files added (on-disk size: 10234.4 KB)
+0008.612 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2700 files added (on-disk size: 10234.4 KB)
+0008.621 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2800 files added (on-disk size: 10234.4 KB)
+0008.638 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 2900 files added (on-disk size: 10234.4 KB)
+0008.652 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3000 files added (on-disk size: 10234.4 KB)
+0008.655 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.6 MB, 4589 files batched, 501 (3006) added so far); re-opening (prior size: 10234.4 KB)
+0011.124 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3100 files added (on-disk size: 12971.8 KB)
+0011.138 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3200 files added (on-disk size: 12971.8 KB)
+0011.149 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3300 files added (on-disk size: 12971.8 KB)
+0011.162 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3400 files added (on-disk size: 12971.8 KB)
+0011.172 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3500 files added (on-disk size: 12971.8 KB)
+0011.175 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 4589 files batched, 501 (3507) added so far); re-opening (prior size: 12971.8 KB)
+0012.253 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3600 files added (on-disk size: 13741.7 KB)
+0012.266 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3700 files added (on-disk size: 13741.7 KB)
+0012.277 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3800 files added (on-disk size: 13741.7 KB)
+0012.286 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 3900 files added (on-disk size: 13741.7 KB)
+0012.297 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4000 files added (on-disk size: 13741.7 KB)
+0012.301 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 4589 files batched, 501 (4008) added so far); re-opening (prior size: 13741.7 KB)
+0013.540 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4100 files added (on-disk size: 14945.2 KB)
+0013.555 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4200 files added (on-disk size: 14945.2 KB)
+0013.564 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4300 files added (on-disk size: 14945.2 KB)
+0013.577 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4400 files added (on-disk size: 14945.2 KB)
+0013.585 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip.tmp: 4500 files added (on-disk size: 14945.2 KB)
+0013.587 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (24.9 MB, 4589 files batched, 501 (4509) added so far); re-opening (prior size: 14945.2 KB)
+0019.306 (0) Created plugins zip (0) - 25234.9 KB in 19.2 s (1315 KB/s) (sha1: 68770f29e985a353dc1275786ff3f7220793c60a, sha256: 47581e904d11ef29c71588321f17f86dc0666ff6ba9b3edade08ab6adf000fb7)
+0019.309 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.329 (0) Total entities for the zip file: 78 directories, 361 files (0 skipped as non-modified), 8.6 MB
+0019.336 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.343 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.356 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.881 (0) Created themes zip (0) - 6252.8 KB in 0.6 s (10975 KB/s) (sha1: 10cdbc9b33c5073ea2adb0adbc9148ad36616ade, sha256: 478466e1bbb7478356baba43202a9a8c3ef4e7ad315e9e68b49184943039ed49)
+0019.884 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0019.885 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0019.886 (0) finding files: 2019: adding to list (1)
+0019.887 (0) finding files: revslider: adding to list (2)
+0019.889 (0) finding files: js_composer: adding to list (3)
+0019.893 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0019.995 (0) Total entities for the zip file: 340 directories, 668 files (0 skipped as non-modified), 6.8 MB
+0020.007 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.016 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.030 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.044 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.057 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.058 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 MB, 668 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0020.320 (0) Zip: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip.tmp: 600 files added (on-disk size: 5524 KB)
+0020.903 (0) Created uploads zip (0) - 7156.5 KB in 1 s (7105 KB/s) (sha1: ffa7732417f4b992cf94eb7feb5c143dc5ddebc5, sha256: 1fccce19d6bbd0a14651cb18e9a1d716929d8c3c4ae5266c21f042237346ca25)
+0020.907 (0) Beginning backup of other directories found in the content directory (index: 0)
+0020.909 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0020.911 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0020.924 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0020.927 (0) finding files: cache: skipping: excluded by options
+0020.928 (0) finding files: advanced-cache.php: adding to list (1)
+0020.931 (0) finding files: db.php: adding to list (2)
+0020.932 (0) finding files: updraft: skipping: this is the updraft directory
+0020.933 (0) finding files: w3tc-config: adding to list (3)
+0020.934 (0) finding files: index.php: adding to list (4)
+0020.936 (0) finding files: plugins: skipping: this is the plugins directory
+0020.938 (0) finding files: themes: skipping: this is the themes directory
+0020.939 (0) finding files: upgrade: skipping: excluded by options
+0020.941 (0) finding files: languages: adding to list (5)
+0020.942 (0) finding files: uploads: skipping: this is the uploads directory
+0020.948 (0) Total entities for the zip file: 4 directories, 62 files (0 skipped as non-modified), 5.4 MB
+0021.744 (0) Created others zip (0) - 1384 KB in 0.8 s (1730.6 KB/s) (sha1: 77ed8c0b9eafb327547a88c3b616d2606ab275c9, sha256: 7f607dd646b18a8ae9a29cfa756253495395734c7eb28349bd33c90b9ceebff3)
+0021.753 (0) Saving backup status to database (elements: 8)
+0021.757 (0) Beginning creation of database dump (WordPress DB)
+0021.778 (0) Table wp_options: Total expected rows (approximate): 268
+0021.911 (0) Table wp_options: Total rows added: 270 in 0.13 seconds
+0021.914 (0) Table wp_options: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_options.table.gz - 166.9 KB)
+0021.925 (0) Table wp_users: Total expected rows (approximate): 0
+0021.928 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0021.931 (0) Table wp_users: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_users.table.gz - 0.7 KB)
+0021.937 (0) Table wp_usermeta: Total expected rows (approximate): 82
+0021.941 (0) Table wp_usermeta: Total rows added: 83 in 0.00 seconds
+0021.944 (0) Table wp_usermeta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_usermeta.table.gz - 2.4 KB)
+0021.949 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0021.952 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0021.955 (0) Table wp_commentmeta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0021.961 (0) Table wp_comments: Total expected rows (approximate): 0
+0021.964 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0021.966 (0) Table wp_comments: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_comments.table.gz - 0.5 KB)
+0021.975 (0) Table wp_links: Total expected rows (approximate): 0
+0021.979 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0021.982 (0) Table wp_links: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_links.table.gz - 0.4 KB)
+0021.988 (0) Table wp_postmeta: Total expected rows (approximate): 292
+0021.998 (0) Table wp_postmeta: Total rows added: 310 in 0.01 seconds
+0022.002 (0) Table wp_postmeta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_postmeta.table.gz - 5.2 KB)
+0022.011 (0) Table wp_posts: Total expected rows (approximate): 149
+0022.026 (0) Table wp_posts: Total rows added: 149 in 0.01 seconds
+0022.028 (0) Table wp_posts: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_posts.table.gz - 18.1 KB)
+0022.032 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0022.034 (0) Table wp_term_relationships: Total rows added: 18 in 0.00 seconds
+0022.036 (0) Table wp_term_relationships: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0022.042 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0022.045 (0) Table wp_term_taxonomy: Total rows added: 6 in 0.00 seconds
+0022.046 (0) Table wp_term_taxonomy: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0022.052 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0022.054 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0022.056 (0) Table wp_termmeta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_termmeta.table.gz - 0.4 KB)
+0022.061 (0) Table wp_terms: Total expected rows (approximate): 6
+0022.064 (0) Table wp_terms: Total rows added: 6 in 0.00 seconds
+0022.065 (0) Table wp_terms: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_terms.table.gz - 0.5 KB)
+0022.070 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 4
+0022.073 (0) Table wp_yoast_seo_links: Total rows added: 4 in 0.00 seconds
+0022.074 (0) Table wp_yoast_seo_links: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_yoast_seo_links.table.gz - 0.5 KB)
+0022.080 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 33
+0022.083 (0) Table wp_yoast_seo_meta: Total rows added: 33 in 0.00 seconds
+0022.084 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_yoast_seo_meta.table.gz - 0.4 KB)
+0022.089 (0) Table wp_aiowps_events: Total expected rows (approximate): 0
+0022.092 (0) Table wp_aiowps_events: Total rows added: 0 in 0.00 seconds
+0022.093 (0) Table wp_aiowps_events: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_events.table.gz - 0.4 KB)
+0022.098 (0) Table wp_aiowps_failed_logins: Total expected rows (approximate): 2
+0022.101 (0) Table wp_aiowps_failed_logins: Total rows added: 3 in 0.00 seconds
+0022.103 (0) Table wp_aiowps_failed_logins: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_failed_logins.table.gz - 0.5 KB)
+0022.108 (0) Table wp_aiowps_global_meta: Total expected rows (approximate): 0
+0022.164 (0) Table wp_aiowps_global_meta: Total rows added: 1 in 0.06 seconds
+0022.168 (0) Table wp_aiowps_global_meta: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_global_meta.table.gz - 59.6 KB)
+0022.173 (0) Table wp_aiowps_login_activity: Total expected rows (approximate): 16
+0022.176 (0) Table wp_aiowps_login_activity: Total rows added: 18 in 0.00 seconds
+0022.179 (0) Table wp_aiowps_login_activity: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_login_activity.table.gz - 0.7 KB)
+0022.188 (0) Table wp_aiowps_login_lockdown: Total expected rows (approximate): 0
+0022.191 (0) Table wp_aiowps_login_lockdown: Total rows added: 0 in 0.00 seconds
+0022.192 (0) Table wp_aiowps_login_lockdown: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_login_lockdown.table.gz - 0.4 KB)
+0022.197 (0) Table wp_aiowps_permanent_block: Total expected rows (approximate): 0
+0022.199 (0) Table wp_aiowps_permanent_block: Total rows added: 0 in 0.00 seconds
+0022.200 (0) Table wp_aiowps_permanent_block: finishing file (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_permanent_block.table.gz - 0.4 KB)
+0022.205 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_options.table.gz (1/20): adding to final database dump
+0022.257 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_users.table.gz (2/20): adding to final database dump
+0022.261 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_usermeta.table.gz (3/20): adding to final database dump
+0022.263 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_commentmeta.table.gz (4/20): adding to final database dump
+0022.265 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_comments.table.gz (5/20): adding to final database dump
+0022.267 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_links.table.gz (6/20): adding to final database dump
+0022.269 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_postmeta.table.gz (7/20): adding to final database dump
+0022.272 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_posts.table.gz (8/20): adding to final database dump
+0022.281 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_term_relationships.table.gz (9/20): adding to final database dump
+0022.283 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_term_taxonomy.table.gz (10/20): adding to final database dump
+0022.284 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_termmeta.table.gz (11/20): adding to final database dump
+0022.285 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_terms.table.gz (12/20): adding to final database dump
+0022.287 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_yoast_seo_links.table.gz (13/20): adding to final database dump
+0022.290 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_yoast_seo_meta.table.gz (14/20): adding to final database dump
+0022.291 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_events.table.gz (15/20): adding to final database dump
+0022.293 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_failed_logins.table.gz (16/20): adding to final database dump
+0022.295 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_global_meta.table.gz (17/20): adding to final database dump
+0022.320 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_login_activity.table.gz (18/20): adding to final database dump
+0022.322 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_login_lockdown.table.gz (19/20): adding to final database dump
+0022.324 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db-table-wp_aiowps_permanent_block.table.gz (20/20): adding to final database dump
+0022.326 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz: finished writing out complete database file (240 KB)
+0022.339 (0) Total database tables backed up: 20 (backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz, size: 260241, sha1: 904f3efdf0899efb8b74885a2cb3262850cac6d8, sha256: a03e3bdbbf904ccb96b57faa6c61e4a380902309935de885fdeeecb242fdc484)
+0022.348 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.349 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.350 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.352 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-others.zip: others: This file has not yet been successfully uploaded: will queue
+0022.353 (0) backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.354 (0) Saving backup history. Total backup size: 39.3 MB
+0022.357 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0022.361 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0022.363 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b3439bb41ba33f7f64a598d7ef4fdff)
+0023.575 (0) Google Drive: creating path: /UpdraftPlus
+0026.057 (0) Google Drive: quota usage: used=1119.6 MB, total=15360 MB, available=14240.4 MB
+0026.060 (0) Google Drive: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip: Attempting to upload to Google Drive (into folder id: 1GTQRiqB7FfG9SqhwhTXJbW1hBIqk8Bc2)
+0027.181 (0) Googledrive chunked upload: 4.1 % uploaded (1048576)
+0027.662 (0) Googledrive chunked upload: 8.1 % uploaded (2097152)
+0028.118 (0) Googledrive chunked upload: 12.2 % uploaded (3145728)
+0028.594 (0) Googledrive chunked upload: 16.2 % uploaded (4194304)
+0029.479 (0) Googledrive chunked upload: 20.3 % uploaded (5242880)
+0030.379 (0) Googledrive chunked upload: 24.3 % uploaded (6291456)
+0031.231 (0) Googledrive chunked upload: 28.4 % uploaded (7340032)
+0032.110 (0) Googledrive chunked upload: 32.5 % uploaded (8388608)
+0032.904 (0) Googledrive chunked upload: 36.5 % uploaded (9437184)
+0033.819 (0) Googledrive chunked upload: 40.6 % uploaded (10485760)
+0034.756 (0) Googledrive chunked upload: 44.6 % uploaded (11534336)
+0035.648 (0) Googledrive chunked upload: 48.7 % uploaded (12582912)
+0036.457 (0) Googledrive chunked upload: 52.8 % uploaded (13631488)
+0037.257 (0) Googledrive chunked upload: 56.8 % uploaded (14680064)
+0038.236 (0) Googledrive chunked upload: 60.9 % uploaded (15728640)
+0039.189 (0) Googledrive chunked upload: 64.9 % uploaded (16777216)
+0040.030 (0) Googledrive chunked upload: 69 % uploaded (17825792)
+0040.867 (0) Googledrive chunked upload: 73 % uploaded (18874368)
+0042.601 (0) Googledrive chunked upload: 77.1 % uploaded (19922944)
+0043.421 (0) Googledrive chunked upload: 81.2 % uploaded (20971520)
+0044.324 (0) Googledrive chunked upload: 85.2 % uploaded (22020096)
+0045.134 (0) Googledrive chunked upload: 89.3 % uploaded (23068672)
+0045.934 (0) Googledrive chunked upload: 93.3 % uploaded (24117248)
+0046.760 (0) Googledrive chunked upload: 97.4 % uploaded (25165824)
+0048.757 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0048.764 (0) Google Drive: OK: Archive backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip uploaded in 22.7 seconds
+0048.766 (0) Recording as successfully uploaded: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip
+0048.787 (0) Deleting local file: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-plugins.zip: OK
+0049.336 (0) Google Drive: quota usage: used=1144.2 MB, total=15360 MB, available=14215.8 MB
+0049.341 (0) Google Drive: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip: Attempting to upload to Google Drive (into folder id: 1GTQRiqB7FfG9SqhwhTXJbW1hBIqk8Bc2)
+0050.836 (0) Googledrive chunked upload: 16.4 % uploaded (1048576)
+0052.273 (0) Googledrive chunked upload: 32.8 % uploaded (2097152)
+0053.734 (0) Googledrive chunked upload: 49.1 % uploaded (3145728)
+0055.198 (0) Googledrive chunked upload: 65.5 % uploaded (4194304)
+0056.482 (0) Googledrive chunked upload: 81.9 % uploaded (5242880)
+0057.539 (0) Googledrive chunked upload: 98.3 % uploaded (6291456)
+0060.228 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0060.239 (0) Google Drive: OK: Archive backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip uploaded in 10.9 seconds
+0060.241 (0) Recording as successfully uploaded: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip
+0060.246 (0) Deleting local file: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-themes.zip: OK
+0060.692 (0) Google Drive: quota usage: used=1150.3 MB, total=15360 MB, available=14209.7 MB
+0060.695 (0) Google Drive: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip: Attempting to upload to Google Drive (into folder id: 1GTQRiqB7FfG9SqhwhTXJbW1hBIqk8Bc2)
+0061.796 (0) Googledrive chunked upload: 14.3 % uploaded (1048576)
+0061.996 (0) Googledrive chunked upload: 28.6 % uploaded (2097152)
+0062.186 (0) Googledrive chunked upload: 42.9 % uploaded (3145728)
+0062.405 (0) Googledrive chunked upload: 57.2 % uploaded (4194304)
+0062.610 (0) Googledrive chunked upload: 71.5 % uploaded (5242880)
+0062.798 (0) Googledrive chunked upload: 85.9 % uploaded (6291456)
+0065.209 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0065.219 (0) Google Drive: OK: Archive backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip uploaded in 4.52 seconds
+0065.222 (0) Recording as successfully uploaded: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip
+0065.233 (0) Deleting local file: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-uploads.zip: OK
+0065.761 (0) Google Drive: quota usage: used=1157.3 MB, total=15360 MB, available=14202.7 MB
+0065.766 (0) Google Drive: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-others.zip: Attempting to upload to Google Drive (into folder id: 1GTQRiqB7FfG9SqhwhTXJbW1hBIqk8Bc2)
+0067.327 (0) Googledrive chunked upload: 74 % uploaded (1048576)
+0070.288 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0070.299 (0) Google Drive: OK: Archive backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-others.zip uploaded in 4.53 seconds
+0070.301 (0) Recording as successfully uploaded: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-others.zip
+0070.306 (0) Deleting local file: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-others.zip: OK
+0070.917 (0) Google Drive: quota usage: used=1158.7 MB, total=15360 MB, available=14201.3 MB
+0070.920 (0) Google Drive: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz: Attempting to upload to Google Drive (into folder id: 1GTQRiqB7FfG9SqhwhTXJbW1hBIqk8Bc2)
+0073.245 (0) Googledrive chunked upload: 100 % uploaded
+0073.252 (0) Google Drive: OK: Archive backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz uploaded in 2.33 seconds
+0073.254 (0) Recording as successfully uploaded: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz
+0073.258 (0) Deleting local file: backup_2019-10-30-1538_Ok_Car_Lombok_Transport_97456dc5a630-db.gz: OK
+0073.264 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0073.266 (0) Number of backup sets in history: 1; groups (db): 1
+0073.267 (0) Examining (for databases) backup set with group_id=0, nonce=97456dc5a630, datestamp=1572449885 (Oct 30 2019 15:38:05)
+0073.268 (0) This backup set is the backup set just made, so will not be deleted.
+0073.268 (0) Number of backup sets in history: 1; groups (files): 1
+0073.270 (0) Examining (for files) backup set with nonce=97456dc5a630, datestamp=1572449885 (Oct 30 2019 15:38:05)
+0073.270 (0) This backup set is the backup set just made, so will not be deleted.
+0073.272 (0) This backup set is the backup set just made, so will not be deleted.
+0073.272 (0) This backup set is the backup set just made, so will not be deleted.
+0073.272 (0) This backup set is the backup set just made, so will not be deleted.
+0073.272 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.274 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0073.280 (0) Resume backup (97456dc5a630, 0): finish run
+0073.285 (0) Decremented the semaphore (fd) by 1
+0073.289 (0) Semaphore (fd) unlocked
+0073.290 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0073.297 (0) Fetching RSS news feed
+0073.623 (0) Fetched RSS news feed; result is a: SimplePie
+0073.696 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: praka...
+0073.841 (0) The backup apparently succeeded and is now complete
