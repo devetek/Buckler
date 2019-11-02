@@ -18,7 +18,7 @@ After running this wordpress in your local, create tags, categories, post for da
 
 
 
-## With Remote COnfig
+## With Remote Config
 
 Coming Soon!
 
