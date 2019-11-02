@@ -10,7 +10,7 @@ $image_uri= WEBRITI_TEMPLATE_DIR_URI. '/images' ;
 		<!-- Blog Main -->
 		<div class="blog_single_post">
 			<h4>Tarif Sewa Motor</h4>
-			<?php tablepress_print_table( array( 'id' => '4', 'use_datatables' => true, 'print_name' => false ) ); ?>
+			<?php tablepress_print_table( array( 'id' => '7', 'use_datatables' => true, 'print_name' => false ) ); ?>
 			<div class="row-fluid"></div>
 			<b>Harga sewa motor tidak termasuk Bahan Bakar (BBM)</b>
 		</div>

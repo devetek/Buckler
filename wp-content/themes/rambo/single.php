@@ -20,7 +20,6 @@
 			</div>
 			<?php  the_content( __('Read More','rambo' ) ); ?>
 			</div>
-			<?php comments_template( '', true );?>
 		</div>
 		<?php get_sidebar();?>
 	</div>

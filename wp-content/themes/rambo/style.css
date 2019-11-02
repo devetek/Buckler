@@ -960,7 +960,7 @@ dd {margin-left: 10px;font-size: 17.5px;}
 /*  BLOG SINGLE POST CSS 
 /*===================================================================================*/
 
-.blog_single_post{ background-color: #ffffff; border: 0px; padding: 0 0 0px; margin-bottom: 50px; float: left; width:100%; }
+.blog_single_post{ background-color: #ffffff; border: 0px; padding: 0 0 0px; margin-bottom: 50px; float: left; width:92%; }
 .blog_single_post  blockquote,.span6  blockquote{ margin: 15px 0px 15px 0px; padding: 15px 20px 15px 20px; float: left; }
 .blog_single_post  blockquote,.blog_section2 blockquote,.span6 blockquote{ background-color: #f9f9f9; }
 .blog_single_post blockquote span,.blog_section2 blockquote span{ color: #767676; }

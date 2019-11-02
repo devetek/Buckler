@@ -11,8 +11,8 @@ endif
 
 
 run-dev: .destroy-dev
-	@ test -f backup/mysql/volume || mkdir -p backup/mysql/volume
-	@ test -f backup/mysql/restore || mkdir -p backup/mysql/restore
+	@ test -d backup/mysql/volume || mkdir -p backup/mysql/volume
+	@ test -d backup/mysql/restore || mkdir -p backup/mysql/restore
 	@ docker-compose -f dev.docker-compose.yml up
 
 run-prod:

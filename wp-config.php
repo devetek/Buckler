@@ -112,6 +112,12 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 	$_SERVER['HTTPS'] = 'on';
 }
 
+// WP Environment to set setting environment
+define( 'WP_ENV', getenv('WP_ENV'));
+
+//Begin Really Simple SSL Server variable fix
+$_SERVER["HTTPS"] = WP_ENV === 'development' ? "off" : "on";
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
