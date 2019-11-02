@@ -11,3 +11,13 @@ vendor
 # content
 wp-content/uploads/**
 wp-content/cache/**
+
+# default compose
+docker-compose.yml
+
+# default WP engine
+wp-content/plugins/akismet/**
+wp-content/plugins/hello.php
+wp-content/themes/twentynineteen/**
+wp-content/themes/twentyseventeen/**
+wp-content/themes/twentysixteen/**

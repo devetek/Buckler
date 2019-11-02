@@ -8,9 +8,8 @@ services:
     volumes:
       - tkpwp_mysql_backup:/docker-entrypoint-initdb.d
       - tkpwp_mysql_data:/var/lib/mysql
-    environment:
-      MYSQL_DATABASE: tkpwpdb
-      MYSQL_ROOT_PASSWORD: passworddbdevelopment
+    env_file:
+      - ./.env
 
   tkpwp_app:
     image: prakasa1904/wp-environment:latest
