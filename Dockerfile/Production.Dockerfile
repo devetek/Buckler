@@ -7,7 +7,7 @@ RUN set -xe \
 
 RUN composer dump-autoload --no-dev --optimize --classmap-authoritative
 
-FROM wordpress:5.2.2
+FROM wordpress:latest
 
 WORKDIR /var/www/html
 
