@@ -1,7 +1,0 @@
-<IfModule mod_headers.c>
-    Header unset Link
-    <FilesMatch "\.(html|html_gzip|html_br)$">
-    Header add Link '</wp-content/cache/minify/df983.js>; rel=preload; as=script'
-    Header add Link '</wp-content/cache/minify/23256.css>; rel=preload; as=style'
-    </FilesMatch>
-</IfModule>
