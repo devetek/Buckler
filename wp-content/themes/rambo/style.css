@@ -247,8 +247,8 @@ div.boxed {
 /*  LOGO CSS 
 /*===================================================================================*/
 
-.logo-title { font-family: 'Philosopher'; font-weight: 400; font-size: 60px; line-height: 50px; white-space: normal; display: block; vertical-align: middle; }
-.logo-title small { color: #4d4e4f; font-size: 38px; line-height: normal; }
+.logo-title { font-family: 'Philosopher'; font-weight: 400; font-size: 40px; line-height: 40px; white-space: normal; display: block; vertical-align: middle; }
+.logo-title small { color: #4d4e4f; font-size: 25px; line-height: normal; }
 .brand img.custom-logo { margin: 4px 0 0; }
 
 /*===================================================================================*/

@@ -5,5 +5,8 @@ vendor
 # local env
 .env
 
+# File content exclude
+wp-content/uploads/**
+
 # db store
 .DS_Store

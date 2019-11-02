@@ -18,7 +18,7 @@ if( $current_options['news_enable'] == false )
 					</div>
 				</div>
 				<div class="row">
-				<?php 	$args = array( 'post_type' => 'post','posts_per_page' => 3,'post__not_in'=>get_option("sticky_posts")) ; 	
+				<?php 	$args = array( 'post_type' => 'post', 'category_name' => 'blog', 'posts_per_page' => 3,'post__not_in'=>get_option("sticky_posts")) ; 	
 						query_posts( $args );
 						if(query_posts( $args ))
 					{	

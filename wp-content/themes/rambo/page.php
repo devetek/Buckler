@@ -34,7 +34,6 @@ get_template_part('banner','strip');?>
 			<?php endif;?>
 			<?php  the_content( __('Read More','rambo') ); ?>
 			</div>
-			<?php comments_template( '', true );?>
 		</div>
 		<?php if ( class_exists( 'WooCommerce' ) ) {
 					

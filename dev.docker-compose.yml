@@ -13,15 +13,17 @@ services:
       MYSQL_ROOT_PASSWORD: passworddbdevelopment
 
   tkpwp_app:
-    image: prakasa1904/wp-environment:latest
+    image: prakasa1904/wp-environment:development
     container_name: tkpwp_app
     depends_on:
       - tkpwp_mysql
     restart: always
     volumes:
-      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./.env:/var/www/html/.env
       - ./wp-content:/var/www/html/wp-content
+      - ./wp-config.php:/var/www/html/wp-config.php
+      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
+      # - ./wp-includes:/var/www/html/wp-includes
     ports:
       - 8080:80
   

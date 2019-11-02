@@ -1,7 +1,14 @@
+export BUILD_ENV=Production
 # build for development, for build machine please confirm to devOps need install composer to support install dependencies
 build: .validate
-	@ docker build -f Dockerfile/Production.Dockerfile --tag=prakasa1904/wp-environment .
-	@ docker push prakasa1904/wp-environment
+ifeq ($(BUILD_ENV),Development)
+		$(eval TAG := $(shell echo "development"))
+else
+	$(eval TAG := $(shell echo "latest"))
+endif
+	@ docker build -f Dockerfile/$(BUILD_ENV).Dockerfile --tag=prakasa1904/wp-environment:$(TAG) .
+	@ docker push prakasa1904/wp-environment:$(TAG)
+
 
 run-dev: .destroy-dev
 	@ test -f backup/mysql/volume || mkdir -p backup/mysql/volume
@@ -19,6 +26,5 @@ run-prod:
 
 .validate:
 	$(eval DCOMPEXIST := $(shell which docker-compose))
-
-	@ test -f .env || sh -c 'echo "No .env file in this directory, follow environment value from .env.example" && exit 1'
+	
 	@ test -n "$(DCOMPEXIST)" || sh -c 'echo "No docker-compose binary installed, how to install https://docs.docker.com/compose/install/" && exit 1'
