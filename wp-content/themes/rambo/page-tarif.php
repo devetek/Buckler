@@ -9,6 +9,10 @@ $image_uri= WEBRITI_TEMPLATE_DIR_URI. '/images' ;
 	 <?php get_sidebar();?>
 		<!-- Blog Main -->
 		<div class="blog_single_post">
+			<div style="display:none;">
+				<?php  the_post(); ?>
+				<?php  the_content( __('Read More','rambo') ); ?>
+			</div>
 			<h4>Tarif Sharing Shuttle</h4>
 			<?php tablepress_print_table( array( 'id' => '1', 'use_datatables' => true, 'print_name' => false ) ); ?>
 			<div class="row-fluid"></div>
