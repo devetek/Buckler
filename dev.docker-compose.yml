@@ -12,7 +12,7 @@ services:
       - ./.env
 
   tkpwp_app:
-    image: prakasa1904/wp-environment:latest
+    image: prakasa1904/wp-environment:development
     container_name: tkpwp_app
     depends_on:
       - tkpwp_mysql
@@ -23,7 +23,8 @@ services:
       - ./wp-config.php:/var/www/html/wp-config.php
       - ./wp-content:/var/www/html/wp-content
     ports:
-      - 8080:80
+      - ${PORT_EXPOSE}:80
+    env_file: .env
   
   tkpwp_nginx:
     image: nginx

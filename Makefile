@@ -13,6 +13,9 @@ endif
 status:
 	@ docker-compose ps
 
+log:
+	@ docker-compose logs -f
+
 down:
 	@ docker-compose down
 
