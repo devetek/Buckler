@@ -16,6 +16,10 @@ wp-content/cache/**
 docker-compose.yml
 
 # default WP engine
+wp-content/updraft/**
+wp-content/uploads/**
+wp-content/languages/**
+wp-content/w3tc-config/**
 wp-content/aiowps_backups/**
 wp-content/plugins/akismet/**
 wp-content/plugins/hello.php
