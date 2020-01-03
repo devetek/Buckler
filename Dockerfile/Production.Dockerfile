@@ -3,9 +3,8 @@ FROM composer:latest AS env-build
 COPY composer.* /app/
 
 RUN set -xe \
- && composer install --no-dev --no-scripts --no-suggest --no-interaction --prefer-dist --optimize-autoloader
-
-RUN composer dump-autoload --no-dev --optimize --classmap-authoritative
+ && composer install --no-dev --no-scripts --no-suggest --no-interaction --prefer-dist --optimize-autoloader \
+ && composer dump-autoload --no-dev --optimize --classmap-authoritative
 
 FROM wordpress:latest
 

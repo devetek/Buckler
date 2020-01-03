@@ -23,7 +23,7 @@ run-dev: .destroy-dev
 	@ cp -rf dev.docker-compose.yml docker-compose.yml
 	@ test -d backup/mysql/volume || mkdir -p backup/mysql/volume
 	@ test -d backup/mysql/restore || mkdir -p backup/mysql/restore
-	@ docker-compose down
+	@ docker-compose down --remove-orphans
 	@ docker-compose up -d
 
 run-prod:
