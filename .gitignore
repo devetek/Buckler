@@ -1,5 +1,5 @@
 # local volume for DB, some stuff no need to pushed
-backup
+backup/mysql/volume
 vendor
 
 # local env
