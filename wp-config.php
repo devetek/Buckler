@@ -21,6 +21,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 (new \Dotenv\Dotenv(__DIR__.'/'))->load();
 
+/** 
+ * Adding /blog to request uri (/wp-admin), will used by wordpress in somewhere
+ */
+if (strpos($_SERVER['REQUEST_URI'], 'wp-admin') !== false) {
+  $_SERVER['REQUEST_URI'] = "/blog".$_SERVER['REQUEST_URI'];
+}
+
 /**
  * The base configuration for WordPress
  *
@@ -52,6 +59,12 @@ define( 'DB_PASSWORD', getenv('DB_PASSWORD'));
 
 /** MySQL hostname */
 define( 'DB_HOST', getenv('DB_HOST'));
+
+/** Wordpress Site Url */
+define( 'WP_SITEURL', getenv('WP_SITEURL'));
+
+/** Wordpress Home Url */
+define( 'WP_HOME', getenv('WP_HOME'));
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8');
@@ -88,7 +101,7 @@ define('NONCE_SALT',       ',w/KuN>4r<Fae5!Q#<!^3Tqe&RD$w!(9qQ_*tC<OKJLO-w|rShn#
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = getenv('DB_TABLE_PREFIX');
 
 /**
  * For developers: WordPress debugging mode.

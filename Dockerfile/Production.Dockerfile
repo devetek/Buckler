@@ -10,7 +10,6 @@ FROM wordpress:5.3.2
 
 # prepare file and folder after build, prepare for running environment
 COPY ./config/php.conf.ini /usr/local/etc/php/conf.d/conf.ini
-COPY wp-content wp-content
 COPY .htaccess .
 COPY .env.example .
 COPY composer.json .
