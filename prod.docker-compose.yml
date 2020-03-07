@@ -1,12 +1,12 @@
 version: '3.1'
 
 services:
-  tkpwp_app:
+  buckler_app:
     image: prakasa1904/wp-environment:latest
-    container_name: tkpwp_app
+    container_name: buckler_app
     restart: always
     volumes:
       - ./.env:/var/www/html/.env
     ports:
-      - ${PORT_EXPOSE}:80
+      - 8080:80
     env_file: .env

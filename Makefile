@@ -1,4 +1,4 @@
-export BUILD_ENV=Production
+BUILD_ENV :=Production
 
 # build for development, for build machine please confirm to devOps need install composer to support install dependencies
 run-build: .validate

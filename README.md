@@ -17,11 +17,5 @@ This wordpress already setup for support [gatsbyjs](https://www.gatsbyjs.org/). 
 After running this wordpress in your local, create tags, categories, post for data example to supporting [Blink of Dagger](https://github.com/devetek/Blink-of-Dagger).
 
 
-
-## With Remote Config
-
-Coming Soon!
-
-## Deploy to VPS
-
-Coming Soon!
+## References
+[Wordpress Gatsby Plugins](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/).

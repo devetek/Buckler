@@ -1,39 +1,39 @@
 version: '3.1'
 
 services:
-  tkpwp_mysql:
+  buckler_mysql:
     image: mysql:5.7
-    container_name: tkpwp_mysql
+    container_name: buckler_mysql
     restart: always
     volumes:
-      - tkpwp_mysql_backup:/docker-entrypoint-initdb.d
-      - tkpwp_mysql_data:/var/lib/mysql
+      - buckler_mysql_backup:/docker-entrypoint-initdb.d
+      - buckler_mysql_data:/var/lib/mysql
     environment:
-      - MYSQL_DATABASE=tkpwpdb
+      - MYSQL_DATABASE=bucklerdb
       - MYSQL_ROOT_PASSWORD=passworddbdevelopment
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
 
-  tkpwp_app:
+  buckler_app:
     image: prakasa1904/wp-environment:development
-    container_name: tkpwp_app
+    container_name: buckler_app
     depends_on:
-      - tkpwp_mysql
+      - buckler_mysql
     restart: always
     volumes:
       - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./.env:/var/www/html/.env
       - ./wp-config.php:/var/www/html/wp-config.php
       - ./wp-content:/var/www/html/wp-content
-    ports:
-      - ${PORT_EXPOSE}:80
     env_file: .env
   
-  tkpwp_nginx:
+  buckler_nginx:
     image: nginx
-    container_name: tkpwp_nginx
+    container_name: buckler_nginx
     depends_on:
-      - tkpwp_app
+      - buckler_app
     volumes:
+      - ./files/etc/nginx/cert/key.pem:/etc/nginx/cert/key.pem
+      - ./files/etc/nginx/cert/chain.pem:/etc/nginx/cert/chain.pem
       - ./files/etc/nginx/development/nginx.conf:/etc/nginx/nginx.conf
       - ./files/etc/nginx/development/default.conf:/etc/nginx/conf.d/default.conf
     restart: always
@@ -45,13 +45,13 @@ services:
         max-size: "1m"
 
 volumes:
-  tkpwp_mysql_backup:
+  buckler_mysql_backup:
     driver: local
     driver_opts:
       type: none
       device: $PWD/backup/mysql/restore
       o: bind
-  tkpwp_mysql_data:
+  buckler_mysql_data:
     driver: local
     driver_opts:
       type: none
